@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Video Subtitle di HTML</title>
+</head>
+<style>
+    .topnav {
+		overflow: hidden;
+		background-color: #008B8B;
+	}
+	/* Style the topnav links  */
+	.topnav a {
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 20px;
+		text-decoration: none;
+	}
+    .topnav a:hover {
+		background-color: #ddd;
+		color: purple;
+    }
+</style>
+<body style="text-align:center">
+<nav class="topnav">
+        <a href="layout.html">Home</a>
+        <a href="summary.html">Summary</a>
+        <a href="time.html">Time</a>
+        <a href="audio.html">Audio</a>
+        <a href="audio2.html">Audio2</a>
+        <a href="video.html">Video</a>
+        <a href="videogif.html">GIF</a>
+        <a href="video-Subtitle.html">Subtitle</a>
+        <a href="video-youtube.html">Youtube</a>
+    </nav>
+    <h1>Jangan lupa nyalain subtitles dulu </h1>
+    <video controls>
+        <source src="いぬのおまわりさん　～ののちゃん　オーケストラと＜同録＞したよ♪-360p.MP4" type="video/MP4" >
+        <track src="sub-indo.vtt" kind="subtitles" srclang="id" label="Indonesia"/>
+    </video>
+</body>
+</html>

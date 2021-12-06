@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	
+		<title>Repository Minggu 3</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  padding: 2px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: black;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  color:white;
+			  width: 30%;
+			  height: 1390px; /* only for demonstration, should be removed */
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  color: rgb(250, 248, 248);
+			  padding: 20px;
+			  width: 70%;
+			  background-color: ghostwhite;
+			  height: 1390px; /* only for demonstration, should be removed */
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			.background-image () {
+			  height: 550px;
+			  width: 70%;
+			}
+
+			/* Style the footer */
+			footer {
+			  padding: 10px;
+			  text-align: center;
+			  color: black;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+				width: 100%;
+				height: auto;
+			  }
+			}
+		</style>
+		
+	</head>
+	
+	<body style="background-color:DarkGrey;">
+
+			<header>
+				<h5 style="background-image: url('1.jpg');">Ludwig van Beethoven</h5>
+			</header>
+
+		<section>
+			<nav style="background-image: url('David.jpg');">
+				<center>
+				<h1>Profil</h1>
+				<img src="fur.jpg" width="250px" height="250px" border="5" style="border-color: white;">
+				</center>
+
+				<table>
+					<tr>
+						<td style="font-weight:bold;" width="30%">Nama</td>
+						<td style="font-weight:bold;" width="1%">:</td>
+						<td>Ludwig van Beethoven</td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;">TTL</td>
+						<td style="font-weight:bold;">:</td>
+						<td>Desember 1770, Bonn, Jerman</td>
+					</tr>
+					<!--<tr>
+						<td style="font-weight:bold;">No Hp</td>
+						<td style="font-weight:bold;">:</td>
+						<td>082135852962</td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;">E-mail</td>
+						<td style="font-weight:bold;">:</td>
+						<td>111202012765@mhs.dinus.ac.id</td>
+					</tr>-->
+					<tr>
+						<td style="font-weight:bold;">Agama</td>
+						<td style="font-weight:bold;">:</td>
+						<td>Kristen</td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;">Pekerjaan</td>
+						<td style="font-weight:bold;">:</td>
+						<td>Pianis, musik kelasik</td>
+					</tr>
+				</table>
+
+				
+			</nav>
+		  
+			<article align="left" style="background-image: url('David.jpg');">
+				<center>
+					<h1>Beethoven - Für Elise</h1>
+					<video width="320" height="250" controls>
+					  <source src="Beethoven - Für Elise.MP4" type="video/MP4">
+					</video>
+				</center>
+				
+					<p align="justify">Ludwig van Beethoven (/ˈlʊdvɪɡ væn ˈbeɪˌtoʊvən/ ; bahasa Jerman: [ˈluːtvɪç fan ˈbeːtˌhoˑfn̩] ; baptis 17 Desember 1770[1] di Bonn, wafat 26 Maret 1827 di Wina) adalah seorang komponis klasik dari Jerman. Karyanya yang terkenal adalah simfoni kelima dan kesembilan, dan juga lagu piano Für Elise. Ia dipandang sebagai salah satu komponis yang terbesar dan merupakan tokoh penting dalam masa peralihan antara zaman Klasik dan zaman Romantik. Semasa muda, ia adalah pianis yang berbakat, populer di antara orang-orang penting dan kaya di Wina, Austria, tempatnya tinggal. Namun, pada tahun 1801, ia mulai kehilangan pendengarannya.
+						Ketuliannya semakin parah dan pada 1817 ia menjadi tuli sepenuhnya. Meskipun ia tak lagi bisa bermain dalam konser, ia terus mencipta musik, dan pada masa ini mencipta sebagian karya-karyanya yang terbesar. Ia menjalani sisa hidupnya di Wina dan tak pernah menikah..</p>
+					
+					<object width="100%" height="300px" data="Tarisesonderan.pdf"></object>
+					<p>untuk mp3 Bagatelle No. 25 in A Minor, WoO 59 "Für Elise", silahkan klik dibawah ini</p>
+					
+				<audio controls>
+				  <source src="Beethoven_ For Elise (Für Elise), Bagatelle No. 25.MP4" type="audio/MP4">
+				</audio>
+				
+					<p>Untuk kalian yang ingin mendownload video ini, silahkan klik dibawah ini</p>
+					<iframe width="400" height="295" 
+					src="https://www.youtube.com/embed/_mVW8tgGY_w">
+					</iframe>
+					<p>Kyle Exum - Bassthoven (lyrics)<p>
+					<iframe width="400" height="295" 
+					src="https://www.youtube.com/embed/TRFQoKStFJM">
+					</iframe>
+			</article>
+			
+		</section>
+
+		<footer style="background-image: url('1.jpg');"> </footer>
+
+	</body>
+</html>
+
