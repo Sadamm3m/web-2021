@@ -1,0 +1,15 @@
+.row{
+    color: black;
+}
+.btn-color-theme{
+    font-family: 'californian fb', cursive;
+    color: rgb(26, 26, 26);
+    background-color: white;
+   
+}
+.text-center{
+    font-family: 'californian fb', cursive;
+}
+.card-body{
+    font-family: 'californian fb', cursive;   
+}
