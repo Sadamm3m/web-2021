@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="shortcut icon" href="foto/2.jpg" type="image/x-icon">
+    <link rel="stylesheet"  href="styleLogin.css">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Login | Vis Art</title>
+</head>
+<body background="foto/18-.jpg">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="mx-auto mt-5">
+                <mp4 src="foto/Vis Art.mp4" alt="" width="200">
+            </div>
+        </div>
+
+        <div class="col-md5 mt-5">
+            <div class="card shadow-sm p-3 border-radius-10 bg-transparent">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="transparent">
+                            <div class="col-md-1">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-11">
+                            <h5>Login To Your Account</h5>
+                        </div>
+                        <p>Masuk dan menjadi bagian dari kami.</p>
+                    </div>
+                    <!--kotak login-->
+                    <form action="" class="login mt-1">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fas fa-user"></i></div>
+                                </div>
+                                <input type="text" name="" class="form-control" placeholder="Username">    
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fas fa-unlock-alt"></i></div>
+                                </div>
+                                <input type="password" name="" class="form-control" placeholder="Password">    
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="ml-auto">
+                                    <small>
+                                        <a href="" class="text-decoration-none text-theme">Forgot Password?</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <b><button type="button" onclick="jalankanScript();" class="btn btn-color-theme btn-block p-2 mt-3"> Login</button></b>
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="input-group-prepend ml-5">
+                                        <div class="input-group-text"><i class="fab fa-instagram"></i></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="input-group-prepend ml-5">
+                                        <div class="input-group-text"><i class="fab fa-google"></i></div> 
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="input-group-prepend ml-5">
+                                        <div class="input-group-text"><i class="fab fa-facebook"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script>
+            function jalankanScript(){
+                var yakin = confirm ("Apakah kamu yakin akan mengunjungi halaman Utama?");
+                if (yakin){
+                    window.location ="index.html";
+                }else{
+                    document.write("Belum, tetap disini saja :)")
+                }
+            }
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
